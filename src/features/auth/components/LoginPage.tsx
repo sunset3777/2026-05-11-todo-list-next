@@ -13,7 +13,7 @@ function LoginPage() {
     handleLogin,
   } = useLoginForm();
 
-  const onSubmit = (e: React.FormEvent) => {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     handleLogin();
   };

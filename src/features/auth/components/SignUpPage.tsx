@@ -1,6 +1,5 @@
 import Link from "next/link";
 import AuthSide from "./AuthSide";
-import { type FormEvent } from "react";
 import { useSignUpForm } from "@/features/auth/useSignUpForm";
 
 function SignUpPage() {
@@ -18,7 +17,7 @@ function SignUpPage() {
     handleSignUp,
   } = useSignUpForm();
 
-  const onSubmit = (e: FormEvent) => {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     handleSignUp();
   };

@@ -14,6 +14,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         />
+        <link rel="shortcut icon" href="https://upload.cc/i1/2022/03/23/yOW5kv.png" />
       </Head>
       <body className="antialiased">
         <Main />
